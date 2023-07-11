@@ -1,0 +1,20 @@
+/* Media Queries BreakPoint 1 */
+@media screen and (max-width:991px){
+    h3{
+        font-size: 1.2rem;
+    }
+    .nav-toggel{
+        display: block;
+        margin-right: 20px;
+    }
+    .nav-links{
+        display: none;
+    }
+    .examples-cards{
+        width: 48%;
+        height: 200px;
+    }
+    .cta-section{
+        padding-block: 80px;
+    }
+}
