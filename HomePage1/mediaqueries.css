@@ -18,3 +18,31 @@
         padding-block: 80px;
     }
 }
+/* Media Queries BreakPoint 2 */
+@media screen and (max-width:767px) {
+    .header-section{
+        flex-direction: column-reverse;
+    }
+    .header-left{
+        max-width: 100vw;
+        text-align: center;
+    }
+    .primary-button{
+        width: 100%;
+    }
+    .features-card{
+        min-width: 48%;
+    }
+    .big-feature-container , #second-big-feature-section{
+        flex-direction: column;
+    }
+    .footer-container{
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        text-align: center;
+    }
+    .link-column{
+        align-items: stretch;
+    }
+}
